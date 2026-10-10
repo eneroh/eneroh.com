@@ -1,0 +1,40 @@
+1vyrain installation on Lenovo Thinkpad X230
+
+I'm not sure about you but sometimes I brush off my old Lenovo Thinkpad X230.
+
+With this, I figure we should give it a bit of a refresh.
+
+The Lenovo Thinkpad X230 is a magnificant device. Slightly dated now but nonetheless, have you heard about 1vyrain. It is a script that allows you to overclock your cpu, remove the wireless nic whitelist for your <specific> thinkpad, as well as, soft disable Intel ME + more.
+
+I think that's pretty cool.
+
+Therefore, let's give it a shot.
+
+First things first. My device is a: Lenovo Thinkpad X230 and the bios that are currently supported sit at 2.60 and lower.
+
+My laptop's BIOS was sitting at: 2.59.
+
+So no downgrade is required.
+
+Items required for procedure
+- Flashdrive
+- 1vyrain iso from https://1vyra.in/
+- You meet the bios version to flash the custom bios
+
+1. I downloaded the 1vyrain.iso from the 1vyrain website: https://1vyra.in/
+2. Proceeded to set up a bootable flash media using the following command: 
+
+sudo dd if=~/Downloads/ivyrain.iso of=/dev/sdb status=progress bs=1M oflag=sync
+3. I rebooted my device
+4. Proceeded to ensure that my bios settings for secure boot and csm support were off and UEFI only was on.
+5. You need to ensure the flash drive is plugged into the right side usb drive (it didnt work on the left side for some reason)
+6. Once rebooted, the flash should pick up and prompt you to continue
+7. Continue forward, when prompted with install custom bios, press '1', if you have the 1080p mod, press the option for x330.
+8. Reboot, observe your changes in your BIOS/UEFI
+
+Oh and disable Intel ME aha
+
+Now I'm thinking about organising a AX210 wireless nic card for my Thinkpad X230, as the wireless nic in it currently is really old and the bluetooth is busted.
+I may also consider organising a X230 FHD kit, costs about $80 for the kit and an additional $100 for a FHD screen but I think it would be worth it considering the device is still really handy. Old tech but the thing is a tank.
+
+*Note* For me I lost my arch linux boot so I had to sudo mount the partitions and re-configure GRUB.
