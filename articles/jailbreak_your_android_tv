@@ -1,0 +1,35 @@
+jailbreak your android tv
+
+What is a jailbreak? It essentially allows you to do just about anything you want to your television.
+
+Typically the out of the box experience with an android tv is rather restrictive. You are limited in what you can do. However with a jailbreak. You can accomplish so much more.
+
+Do you want AD Free Youtube?
+What about applications you cant typically get on your Android Television? Like say a terminal?
+Do you want to make your tv appear fancier than it actually is?
+Do you want fancy artworks displayed as screen savers or display a photo album of your choice?
++ so much more
+
+Well you need to JAILBREAK your tv.
+
+Items required for procedure
+SmartTube - https://github.com/yuliskov/smarttube
+
+
+PROCEDURE
+1. Firstly you enter your TV settings
+2. Within "General Settings", select "Apps"
+3. Under "Permissions" is the option: "Security & Restrictions"
+4. You will see "Unknown sources", here you will be prompted to allow installation of apps from sources other than the Play Store, ensure this is turned on
+5. Now visit your google play store, typically located on the android tv home menu
+6. Select "Google Play Store"
+7. Perform a search for: Downloader by ADTVnews.com
+8. Once downloaded, perform a search for: SmartTube
+9. Visit the github page, then navigate to the github.io page
+10. Scroll down and locate "Stable release", a download will be performed
+11. You will be prompted to allow this to download in the Downloader app, ensure that the Downloader has the correct permissions
+12. You will then be prompted to install then open the application
+
+Congratulations, you have downloaded AD-Free youtube!
+
+With this completed, feel free to install any further apps, or even download the Fdroid repository.
